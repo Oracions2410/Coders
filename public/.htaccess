@@ -1,0 +1,3 @@
+REWRITE ENGINE ON
+
+REWRITE RULE (.*)+ index.php []

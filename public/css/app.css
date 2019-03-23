@@ -1,0 +1,65 @@
+@font-face {
+    font-family: courgette;
+    src: url("../typo/Courgette-Regular.ttf");
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    font-family: courgette, sans-serif;
+    font-size: 17px;
+    color: #ecf0f1;
+   
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-color: #2c3e50;
+}
+
+#content{
+    position: relative;
+    width: 50%;
+    padding: 5px;
+}
+
+.content-header{
+  
+}
+
+#main-image{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    background-image: url("../images/Background2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: -5px 0 30px #0008;
+}
+
+.nav{
+    width: 20%;
+    height: 100vh;
+    background-color: #fc5c65;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 2vh;
+}
+
+.nav p{
+    margin: 0;
+}
+
+.nav-welcome{
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+    color: #fc5c65;
+    font-size: 30px;
+}
+
+
+
